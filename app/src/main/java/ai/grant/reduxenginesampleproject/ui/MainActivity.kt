@@ -3,10 +3,10 @@ package ai.grant.reduxenginesampleproject.ui
 import ai.grant.reduxengine.INSTANCE.listen
 import ai.grant.reduxengine.extensions.addTo
 import ai.grant.reduxenginesampleproject.R
-import ai.grant.reduxenginesampleproject.common.extensions.dispose
-import ai.grant.reduxenginesampleproject.common.extensions.instance
+import ai.grant.reduxenginesampleproject.extensions.dispose
+import ai.grant.reduxenginesampleproject.extensions.instance
 import ai.grant.reduxenginesampleproject.model.AppState
-import ai.grant.reduxenginesampleproject.ui.screens.BaseView
+import ai.grant.reduxenginesampleproject.ui.components.BaseView
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.get

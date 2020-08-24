@@ -1,4 +1,4 @@
-package ai.grant.reduxenginesampleproject.ui.screens
+package ai.grant.reduxenginesampleproject.ui.components
 
 import ai.grant.reduxengine.INSTANCE.dispatch
 import ai.grant.reduxengine.INSTANCE.listen

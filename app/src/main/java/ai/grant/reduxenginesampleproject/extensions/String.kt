@@ -1,4 +1,4 @@
-package ai.grant.reduxenginesampleproject.common.extensions
+package ai.grant.reduxenginesampleproject.extensions
 
 import android.content.Context
 import android.view.View

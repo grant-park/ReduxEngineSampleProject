@@ -3,7 +3,6 @@ package ai.grant.reduxenginesampleproject.model.epics
 import ai.grant.reduxengine.core.Action
 import ai.grant.reduxengine.core.Epic
 import ai.grant.reduxenginesampleproject.model.AppState
-import ai.grant.reduxenginesampleproject.common.Constants.Companion.STORE_KEY
 import android.content.SharedPreferences
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
@@ -24,5 +23,10 @@ class StorePersistEpic(private val sharedPreferences: SharedPreferences) : Epic<
         val editor = sharedPreferences.edit()
         editor.putString(STORE_KEY, Json.encodeToString(appState))
         editor.apply()
+    }
+
+    companion object {
+        const val PREFS_NAME = "PREFS_NAME"
+        const val STORE_KEY = "ENGINE_KEY"
     }
 }

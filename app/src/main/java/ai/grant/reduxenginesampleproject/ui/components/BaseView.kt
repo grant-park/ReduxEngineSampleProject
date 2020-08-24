@@ -1,7 +1,7 @@
-package ai.grant.reduxenginesampleproject.ui.screens
+package ai.grant.reduxenginesampleproject.ui.components
 
 import ai.grant.reduxenginesampleproject.R
-import ai.grant.reduxenginesampleproject.common.extensions.dispose
+import ai.grant.reduxenginesampleproject.extensions.dispose
 import android.content.Context
 import android.transition.Slide
 import android.transition.TransitionManager

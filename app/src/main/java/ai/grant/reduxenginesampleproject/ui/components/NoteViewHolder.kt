@@ -1,4 +1,4 @@
-package ai.grant.reduxenginesampleproject.ui.screens
+package ai.grant.reduxenginesampleproject.ui.components
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView

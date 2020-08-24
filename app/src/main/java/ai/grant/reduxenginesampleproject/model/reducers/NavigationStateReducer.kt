@@ -4,10 +4,10 @@ import ai.grant.reduxengine.core.Action
 import ai.grant.reduxengine.core.Reducer
 import ai.grant.reduxenginesampleproject.model.AppState
 import ai.grant.reduxenginesampleproject.model.actions.NavigationAction
-import ai.grant.reduxenginesampleproject.ui.screens.EditNoteView
-import ai.grant.reduxenginesampleproject.ui.screens.NewNoteView
-import ai.grant.reduxenginesampleproject.ui.screens.NotesView
-import ai.grant.reduxenginesampleproject.ui.screens.StartUpView
+import ai.grant.reduxenginesampleproject.ui.components.EditNoteView
+import ai.grant.reduxenginesampleproject.ui.components.NewNoteView
+import ai.grant.reduxenginesampleproject.ui.components.NotesView
+import ai.grant.reduxenginesampleproject.ui.components.StartUpView
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 @ExperimentalCoroutinesApi

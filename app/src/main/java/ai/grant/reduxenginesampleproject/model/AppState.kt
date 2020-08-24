@@ -1,7 +1,7 @@
 package ai.grant.reduxenginesampleproject.model
 
 import ai.grant.reduxengine.core.State
-import ai.grant.reduxenginesampleproject.ui.screens.StartUpView
+import ai.grant.reduxenginesampleproject.ui.components.StartUpView
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.serialization.Serializable
 
